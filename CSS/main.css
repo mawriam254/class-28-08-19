@@ -1,0 +1,77 @@
+body {
+    background: #f4f4f4;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-style: italic;        
+        }
+
+        #about {
+            background: #fff;
+            height: 125px;
+        }
+
+        .about-section {
+            text-align: center;
+        }
+
+        span {
+            color: aqua;
+        }
+
+        #about-section h1 span {
+            color: red;
+        }
+
+        .btn {
+            text-decoration: none;
+            font-size: 20px;
+            color: olivedrab;
+            background: black;
+            padding: 10px 20px;
+            border-radius: 10px;
+        }
+
+        .btn:hover {
+            color: black;
+            background: white;
+            border: 1px;
+        }
+        .test {
+            border: 1px;
+            border-color: red;
+            border-style: solid;
+            padding-top: 20px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            margin: 20px;
+        }
+        #home{
+            color: gold;
+            background:hotpink;
+        }
+        /* contact section */
+
+        #box-1{
+            background-color: red;
+            border: 3px dotted blue;
+            border-radius: 10px;
+        }
+        #box-2{
+            background-color: firebrick;
+            color: hotpink;
+            border-top: blue solid 3px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        #box-3{
+            background-image: url("../img/pretty.jpg");
+            height: 100vh;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center top;
+        }
+        #image{
+            background: url("../img/pretty.jpg");
+            height: 100vh;
+        }
+        
